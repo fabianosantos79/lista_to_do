@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     display: flex;
     align-items: center;
-    border: 1px solid #555;
+    border: 1px solid #FFF;
     border-radius: 15px;
     padding: 10px;
     margin: 20px 0;
@@ -19,5 +19,8 @@ export const Container = styled.div`
         color: #FFF;
         font-size: 18px;
         flex: 1;
+    }
+    input::placeholder{
+        color: #FFF;
     }
 `
